@@ -41,13 +41,14 @@ wget -c (http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_te
 
 ### 3. Downloading the pre-training model
 
-# download the Inception v3 model
+#### inception-v3 model
+
 ```bash
 curl -O http://download.tensorflow.org/models/image/imagenet/inception-v3-2016-03-01.tar.gz
 tar xzf inception-v3-2016-03-01.tar.gz
 ```
 
-Following adv pre-trained models are available:
+####  adv pre-trained models :
 
 Network Architecture | Adversarial training | Checkpoint
 ---------------------|----------------------|----------------
