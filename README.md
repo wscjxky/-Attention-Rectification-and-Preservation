@@ -30,14 +30,16 @@ $ wget http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz
 ```
 
 To download the [Imagenet2012](http://www.image-net.org/challenges/LSVRC/2012/) dataset you can download from：
-[train_set](http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.tar)
-[val_set](http://www.image-npet.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_val.tar)
-[[test_set](http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_test.tar)
+```bash
+wget -c (http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.tar) 
+wget -c (http://www.image-npet.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_val.tar)
+wget -c (http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_test.tar)
+```
 
 
 
 
-### 2. Downloading the pre-training model
+### 3. Downloading the pre-training model
 Following pre-trained models are available:
 
 Network Architecture | Adversarial training | Checkpoint
@@ -45,12 +47,7 @@ Network Architecture | Adversarial training | Checkpoint
 Inception v3 | Step L.L. | [adv_inception_v3_2017_08_18.tar.gz](http://download.tensorflow.org/models/adv_inception_v3_2017_08_18.tar.gz)
 Inception v3 | Step L.L. on ensemble of 3 models | [ens3_adv_inception_v3_2017_08_18.tar.gz](http://download.tensorflow.org/models/ens3_adv_inception_v3_2017_08_18.tar.gz)
 Inception v3 | Step L.L. on ensemble of 4 models| [ens4_adv_inception_v3_2017_08_18.tar.gz](http://download.tensorflow.org/models/ens4_adv_inception_v3_2017_08_18.tar.gz)
-Inception ResNet v2 | Step L.L. | [adv_inception_resnet_v2_2017_12_18.tar.gz](http://download.tensorflow.org/models/adv_inception_resnet_v2_2017_12_18.tar.gz)
-Inception ResNet v2 | Step L.L. on ensemble of 3 models | [ens_adv_inception_resnet_v2_2017_08_18.tar.gz](http://download.tensorflow.org/models/ens_adv_inception_resnet_v2_2017_08_18.tar.gz)
 
-All checkpoints are compatible with
-[TF-Slim](https://github.com/tensorflow/models/tree/master/research/slim)
-implementation of Inception v3 and Inception Resnet v2.
 
 ## Screenshots
 
