@@ -1,12 +1,11 @@
-# ARP（Attention Rectification and Preservation）
-
+# AAD（ Attention-based Adversarial Defense）
 
 This study provides a new understanding of the adversarial attack problem by examining the correlation between adversarial attack and visual attention change. In particular, we observed that: images with incomplete attention regions are more vulnerable to adversarial attacks; and uccessful adversarial attacks lead to deviated and scattered attention map. 
 
 We hope the attention-related data analysis and defense solution in this study will shed some light on the mechanism behind the adversarial attack and also facilitate future adversarial defense/attack model design.
 
 ## Paper
-ARP is based on the work presented in [Attention, Please! Adversarial Defense via Attention Rectification and Preservation
+Attention-based Adversarial Defense framework is based on the work presented in [Attention, Please! Adversarial Defense via Attention Rectification and Preservation
 ](https://arxiv.org/abs/1811.09831) 
 
 ## Dependencies
